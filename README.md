@@ -13,17 +13,10 @@ This project provides a basic calculator application that allows users to perfor
 - Handles error conditions, including division by zero and invalid input.
 - Displays results with precision (typically up to two decimal places).
 
-## Getting Started
 
-### Prerequisites
 
-- C compiler (e.g., GCC) installed on your system.
 
-### Compilation
 
-To compile the program, open a terminal and navigate to the project directory. Then, use the following command:
 
-```bash
-gcc calculator.c -o calculator
 
 

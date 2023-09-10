@@ -4,15 +4,15 @@ int main() {
     char operator;
     double num1, num2, result;
 
-    // Input operator (+, -, *, /)
+    
     printf("Enter an operator (+, -, *, /): ");
     scanf(" %c", &operator);
 
-    // Input two numbers
+   
     printf("Enter two numbers: ");
     scanf("%lf %lf", &num1, &num2);
 
-    // Perform the calculation based on the operator
+    
     switch (operator) {
         case '+':
             result = num1 + num2;
@@ -28,12 +28,12 @@ int main() {
                 result = num1 / num2;
             } else {
                 printf("Error: Division by zero!\n");
-                return 1; // Exit with an error code
+                return 1; 
             }
             break;
         default:
             printf("Error: Invalid operator!\n");
-            return 1; // Exit with an error code
+            return 1; 
     }
 
     printf("Result: %.2lf\n", result);
